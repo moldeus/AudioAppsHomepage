@@ -1,0 +1,103 @@
+/* Here goes generic classes */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;}
+
+/*h2 { text-transform: uppercase; }*/
+
+h1 {font-family: 'Raleway', Helvetica, Arial, sans-serif; font-size: 50px; line-height: 70px;}
+ 
+p {
+    font-family: 'Raleway', Georgia, Times, serif;
+    line-height: 1.5;
+    font-size: 20px;
+    line-height: 30px;
+}
+body {padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.03);
+  color: black;
+    font-family: 'Raleway', Georgia, Times, serif;
+    font-size: 20px;
+    line-height: 30px;}
+
+/* Main content */
+
+.jumbotron h1{ color: white; }
+.jumbotron strong { color: white; }
+.jumbotron.production { background-image: url("/img/production.jpg"); }
+.jumbotron { text-align: center; }
+.jumbotron p { color: white; }
+.jumbotron.development { background-image: url("/img/development.jpg"); width: 100%; max-width: 100%; background-size: 100%; }
+.jumbotron.marketing { background-image: url("/img/about.jpg"); background-size: 100%; }
+.jumbotron.marketing h1{ color: black; }
+
+.container.contact {  background-color: white;}
+.container.contact {background-color: rgba(255, 120, 0, 0.48); color: white;}
+
+#shadow { text-shadow: 1px 1px 2px white; }
+#shadowblack { text-shadow: 1px 1px 2px black; }
+
+/*#indexbubbles {text-align: center}*/
+#indexbubbles {padding-left: 10px; padding-right: 10px}
+#indexbubbles {margin-top: 20px}
+#indexbubbles {margin-bottom: 20px}
+#contentbubbles {text-align: center}
+
+.thumbnail {background-color: rgba(245, 143, 0, 0.38); border-color: black}
+
+.carousel-inner {height: 690px;}
+.carousel-inner {position: relative;
+width: 100%;
+overflow: hidden;}
+.carousel-inner img {display: block;
+height: auto;
+max-width: 100%;
+line-height: 1;}
+.carousel-caption {padding-bottom: 25%;}
+
+.carousel-inner img {vertical-align: middle;}
+.carousel-inner img {border: 0;}
+
+.anchor {padding-top: 40px; margin-top: -40px;}
+
+.parallax {background-image: url('/img/skyline.jpg');
+  background-size: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;}
+.parallax h2 {line-height: 400px;}
+
+.thumbnail {margin-bottom:6px;}
+
+.carousel-control.left,.carousel-control.right{background-image:none;}
+
+.btn-success { border-color: #FF8B23;}
+.btn-success { background-color: #FF8B23;}
+.btn-success:hover { border-color: #FF7800;}
+.btn-success:hover { background-color: #FF7800;}
+
+.btn-primary { border-color: #FF8B23;}
+.btn-primary { background-color: #FF8B23;}
+.btn-primary:hover { border-color: #FF7800;}
+.btn-primary:hover { background-color: #FF7800;}
+
+.btn-default { border-color: #FF7800;}
+.btn-default { background-color: #FF7800;}
+.btn-default:hover { border-color: #F57400;}
+.btn-default:hover { background-color: #F57400;}
+
+
+
+.container.faq {padding-top: 10px}
+.panel-default .panel-heading {color: #333333;
+background-color: orange;
+border-color: black;}
+
+.img-thumbnail {margin: 5px;}
+
+.row {padding-top: 20px}
+
+#bs-example-navbar-collapse-1 { float: left; width: 80%; }
+
