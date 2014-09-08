@@ -124,6 +124,18 @@
 
         </div><!-- /.row -->
       </div><!-- end container -->
+
+      <div class="container" id="products">
+        <% @featured_product.each do |product| %>
+        <tr>
+          <td><%= product.image_url %></td>
+          <td><%= product.name %></td>
+          <td><%= product.description %></td>
+        </tr>
+        <end>
+
+        
+      </div>
   
 
 <!-- parallax #1 -->
