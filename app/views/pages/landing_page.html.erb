@@ -126,15 +126,13 @@
       </div><!-- end container -->
 
       <div class="container" id="products">
-        <% @featured_product.each do |product| %>
-        <tr>
-          <td><%= product.image_url %></td>
-          <td><%= product.name %></td>
-          <td><%= product.description %></td>
-        </tr>
-        <end>
-
-        
+        <%= @featured_product.image_url %>
+        <br>
+        <%= @featured_product.name %>
+        <br>
+        <%= @featured_product.description %>
+        <br>
+        <%= @featured_product.price %>        
       </div>
   
 
