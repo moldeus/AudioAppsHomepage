@@ -16,7 +16,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="/img/AA_Logo.png"></a>
+          <%= link_to 'AudioApps', "/pages/landing_page" %>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
@@ -34,8 +34,12 @@
                 <li><a href="marketing.html">Marketing</a></li>
               </ul>
             </li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li> 
+            <%= link_to 'About', "/pages/about"  %>
+          </li>
+          <li>
+            <%= link_to 'Contact', "/pages/contact"  %>
+          </li>
           </ul>
         </div>
         <div class="navbar-collapse collapse">
@@ -126,14 +130,17 @@
       </div><!-- end container -->
 
       <div class="container" id="products">
-        <%= @featured_product.image_url %>
+        <%= image_tag(@featured_product.image_url) %>
         <br>
         <%= @featured_product.name %>
         <br>
         <%= @featured_product.description %>
         <br>
-        <%= @featured_product.price %>        
+        <%= @featured_product.price %>    
+        <br> 
+        <%= link_to 'Featured Product', @featured_product %>  
       </div>
+
   
 
 <!-- parallax #1 -->
